@@ -1,4 +1,8 @@
 Musical::Application.routes.draw do
+  get "/files" => "files#index"
+  get "/files/download" => "files#download"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

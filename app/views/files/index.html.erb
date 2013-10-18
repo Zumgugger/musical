@@ -1,0 +1,9 @@
+
+<h1>reno</h1>
+<% @reno.each do |file|%>
+ <li><%= link_to file, :action => "download", :name =>file %></li>
+<%end%>
+<h1>st.catherines</h1>
+<% @stcatherines.each do |file|%>
+ <li><%= link_to file, :action => "download", :name =>file %></li>
+<%end%>
